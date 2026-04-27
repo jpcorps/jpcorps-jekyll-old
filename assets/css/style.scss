@@ -1,6 +1,5 @@
-/* 좌측 사이드바 메인 제목 폰트 크기 및 자간 축소 */
 #sidebar h1 {
-  font-size: 1.00rem; /* 기본 폰트 크기보다 작게 조정. 필요시 1.1rem 등으로 수치 변경 가능 */
-  letter-spacing: -0.05em; /* 자간을 살짝 좁혀서 한 줄에 들어갈 확률을 높임 */
-  word-break: keep-all; /* 단어 단위로 줄바꿈이 일어나도록 강제 */
+  font-size: 0.85rem !important;
+  letter-spacing: -0.05em !important;
+  word-break: keep-all !important;
 }
