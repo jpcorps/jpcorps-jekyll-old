@@ -5,7 +5,13 @@
 
 /* append your custom style below */
 #sidebar .site-title {
-  font-size: 1.15rem !important;
+  font-size: 1.2rem !important;
   letter-spacing: -0.05em !important;
   word-break: keep-all !important;
+}
+
+/* 부제목(tagline)의 기울임꼴 해제 및 스타일 조정 */
+#sidebar .site-subtitle {
+  font-style: normal !important; /* 기울임 해제 */
+  opacity: 0.8; /* 약간 투명하게 하여 제목과 대비를 줌 (선택 사항) */
 }
