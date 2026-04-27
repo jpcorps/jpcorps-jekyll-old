@@ -14,4 +14,5 @@
 #sidebar .site-subtitle {
   font-style: normal !important; /* 기울임 해제 */
   opacity: 0.8; /* 약간 투명하게 하여 제목과 대비를 줌 (선택 사항) */
+  word-break: keep-all !important;
 }
