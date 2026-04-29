@@ -1,4 +1,9 @@
-# The Site Configuration
+import os
+
+config_path = r"D:\github\jpcorps.github.io\_config.yml"
+
+# 완벽하게 복구 및 설정된 전체 내용
+full_config = """# The Site Configuration
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -158,3 +163,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+"""
+
+with open(config_path, "w", encoding="utf-8") as f:
+    f.write(full_config)
+
+print(f"완료! {config_path} 파일을 완벽하게 복구 및 수정했습니다.")
