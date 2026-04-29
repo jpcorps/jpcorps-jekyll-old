@@ -5,7 +5,7 @@ date: 2009-11-24 09:37:54
 categories: [이글루스 백업, "2009-11"]
 ---
 
-![](/assets/images/posts/20091124_c0055803_4b0b2acbdf85d.jpg)  
+![](/assets/images/posts/20091124_093754_c0055803_4b0b2acbdf85d.jpg)  
 <https://www.webtech.co.jp/kr/istudio/index.html>  
   
 현재 연구중. (겸 메뉴얼 번역... )  

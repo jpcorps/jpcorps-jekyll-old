@@ -22,9 +22,9 @@ categories: [이글루스 백업, "2011-05"]
 
 즉 이 스크립트가 없었을 때에는, 캐릭터 제작할때 셋팅해 놓은 반구조명 색상이 그대로 적용되었기 때문에, 어떤 배경에 가더라도 같은 느낌의 색상만 난다는 문제가 있었습니다.   
   
-예를 들어 ![](/assets/images/posts/20110526_c0055803_4ddddae7abe86.png)이런거나   
+예를 들어 ![](/assets/images/posts/20110526_135717_c0055803_4ddddae7abe86.jpg)이런거나   
   
-![](/assets/images/posts/20110526_c0055803_4ddddb10d1c46.png)이런 것처럼  
+![](/assets/images/posts/20110526_135717_c0055803_4ddddb10d1c46.jpg)이런 것처럼  
   
 파란 하늘도 아닌데 파란 하늘이 느껴지는 라이팅 설정들이 생긴다는 거지요. 처음 설정이 푸르샤프라 지방에서 맞춰놓은 설정이라서 말이지요.   
   
@@ -32,23 +32,23 @@ categories: [이글루스 백업, "2011-05"]
   
 하나는 \_GameManager 안에 컴포넌트로 넣어져 있으며, 이름은 Ts Scene Ambient Color 입니다.   
 이건 맵마다의 글로벌 라이트 설정을 제어하는 메니져이지요.   
-![](/assets/images/posts/20110526_c0055803_4ddddb7fd70ad.png)![](/assets/images/posts/20110526_c0055803_4ddddb814e22c.png)  
+![](/assets/images/posts/20110526_135717_c0055803_4ddddb7fd70ad.jpg)![](/assets/images/posts/20110526_135717_c0055803_4ddddb814e22c.jpg)  
   
  그리고 또하나는 Ts Global Light Color 스크립트로, 이것은 캐릭터를 넣으실 때 각 파츠마다 컴포넌트로 삽입시켜 주셔야 합니다. 이것은 Ts Scene Ambient Color  에서 지정한 색상을 , 여기 있는 쉐이더의 색상에 대입시켜주도록 연결시켜주는 스크립트입니다. Ts Scene Ambient Color 는 이미 들어가 있으므로, 캐릭터를 제작하실때 Ts Global Light Color 스크립트만 넣어주시면 됩니다.   
   
 (혹은 글로벌 라이트 효과로부터 독립해서 만들고 싶으시면 이 스크립트를 안 넣으시면 됩니다)   
   
   
-![](/assets/images/posts/20110526_c0055803_4ddddb664c4cf.png)  
+![](/assets/images/posts/20110526_135717_c0055803_4ddddb664c4cf.jpg)  
   
 이렇게 만들어 놓고 플레이를 누르면,   
   
 미리 설정해놓았던 쉐이더의 칼라값은 무시되고 ,맵의 루트에 있는 게임 메니져의 Ts Scene Ambient Color에 의해 칼라값이 제어받게 됩니다.   
   
 즉 처음 실행하면 초기값이 검은색/ 검은색 이기 때문에 이렇게 됩니다.   
-![](/assets/images/posts/20110526_c0055803_4ddddce9e67b2.png)![](/assets/images/posts/20110526_c0055803_4ddddcebabe8d.png)여기서 맵에 알맞은 색상을 등록해 놓으면  
+![](/assets/images/posts/20110526_135717_c0055803_4ddddce9e67b2.jpg)![](/assets/images/posts/20110526_135717_c0055803_4ddddcebabe8d.jpg)여기서 맵에 알맞은 색상을 등록해 놓으면  
   
-![](/assets/images/posts/20110526_c0055803_4ddddd3e6363c.png)![](/assets/images/posts/20110526_c0055803_4ddddd407edd8.png)맵별로 어울리는 칼라로 셋팅해 놓으면, 연결된 쉐이더들의 색상이 자동으로 바뀌므로 맵에 어울리는 칼라로 자동으로 변하게 됩니다.   
+![](/assets/images/posts/20110526_135717_c0055803_4ddddd3e6363c.jpg)![](/assets/images/posts/20110526_135717_c0055803_4ddddd407edd8.jpg)맵별로 어울리는 칼라로 셋팅해 놓으면, 연결된 쉐이더들의 색상이 자동으로 바뀌므로 맵에 어울리는 칼라로 자동으로 변하게 됩니다.   
 물론 필요하면 삼품에서도 사용할 수 있으며, 현재 AT2에 커밋되어 있습니다.   
 일단 맵별로 대충 칼라는 제가 다 잡아놨구요. 빼먹은거나 새로 제작되는 맵에는 만들어 주시면 되겠습니다.   
   

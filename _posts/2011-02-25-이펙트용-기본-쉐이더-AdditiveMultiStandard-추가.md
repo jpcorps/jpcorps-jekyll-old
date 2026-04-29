@@ -25,4 +25,4 @@ categories: [이글루스 백업, "2011-02"]
 여기선 그런 코드가 없기 때문에 이펙트가 부드럽습니다.   
   
   
-![](/assets/images/posts/20110225_c0055803_4d676fae6932d.png)
+![](/assets/images/posts/20110225_180341_c0055803_4d676fae6932d.jpg)

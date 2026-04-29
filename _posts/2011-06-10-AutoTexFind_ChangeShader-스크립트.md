@@ -18,18 +18,18 @@ categories: [이글루스 백업, "2011-06"]
 현재는 Legacy Shaders/Diffuse Fast 쉐이더를 자동으로  Mobile/VertexLit 쉐이더로 바꿔주도록 되어 있는데요.   
   
   
-![](/assets/images/posts/20110610_c0055803_4df1c9522293e.png)이렇게 Diffuse Fast 로 되어 있는 녀석이 있습니다.   
+![](/assets/images/posts/20110610_165528_c0055803_4df1c9522293e.jpg)이렇게 Diffuse Fast 로 되어 있는 녀석이 있습니다.   
   
-![](/assets/images/posts/20110610_c0055803_4df1c9530c5dc.png)  
+![](/assets/images/posts/20110610_165528_c0055803_4df1c9530c5dc.jpg)  
 맵 전부를 체크해서 저 쉐이더를 모바일버전 vertexLit쉐이더로 바꿀 예정이므로 Ctrl+A로 전부 선택해 줍니다.   
   
   
-![](/assets/images/posts/20110610_c0055803_4df1c950953c4.png)Auto TexFinder\_ChangShader 스크립트를 찾습니다.   
+![](/assets/images/posts/20110610_165528_c0055803_4df1c950953c4.jpg)Auto TexFinder\_ChangShader 스크립트를 찾습니다.   
   
   
   
   
-![](/assets/images/posts/20110610_c0055803_4df1c9518bc63.png)  
+![](/assets/images/posts/20110610_165528_c0055803_4df1c9518bc63.jpg)  
 아래 버튼은 건드리면 안됩니다. 큰일나요.   
 윗쪽 버튼이 삼품 전용 버튼입니다.   
   
@@ -38,7 +38,7 @@ categories: [이글루스 백업, "2011-06"]
 누르면... 잠시 후  
   
   
-![](/assets/images/posts/20110610_c0055803_4df1c9541dc46.png)  
+![](/assets/images/posts/20110610_165528_c0055803_4df1c9541dc46.jpg)  
 이렇게 쉐이더가 바뀌어 있음을 알 수 있습니다.   
   
 아직 커밋 안됐습니다. 서버에 문제가 있어서.. 서버에 올린 후 팀장님하고 말해서 처리하도록 하지요.   

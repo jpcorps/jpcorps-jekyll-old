@@ -5,7 +5,7 @@ date: 2007-04-22 18:10:56
 categories: [이글루스 백업, "2007-04"]
 ---
 
-[**![](/assets/images/posts/20070422_c0055803_06043118.gif)**](https://book.naver.com/bookdb/book_detail.php?bid=1802952)"심리학적 접근에 인한 더 좋은 게임 캐릭터 디자인 하기"  
+[**![](/assets/images/posts/20070422_181056_c0055803_06043118.gif)**](https://book.naver.com/bookdb/book_detail.php?bid=1802952)"심리학적 접근에 인한 더 좋은 게임 캐릭터 디자인 하기"  
 저자 Katherine Isbister  
 요즘에 읽고 있는 책.   
   

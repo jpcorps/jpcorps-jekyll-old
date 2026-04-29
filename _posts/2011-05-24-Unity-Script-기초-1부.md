@@ -21,7 +21,7 @@ categories: [이글루스 백업, "2011-05"]
   
 그럼 어쨌건 시작.   
 
-![](/assets/images/posts/20110524_c0055803_4ddb1f1ef3c26.png)![](/assets/images/posts/20110524_c0055803_4ddb1f1e69412.png)우선 빈 스크립트를 제작합니다. C# 스크립트를 제작하지요.   
+![](/assets/images/posts/20110524_111841_c0055803_4ddb1f1ef3c26.jpg)![](/assets/images/posts/20110524_111841_c0055803_4ddb1f1e69412.jpg)우선 빈 스크립트를 제작합니다. C# 스크립트를 제작하지요.   
 그리고 이름을 바꿔둡니다.   
   
   
@@ -68,11 +68,11 @@ public class JPTestColorChange : MonoBehaviour {
 }  
 ===================================  
   
-![](/assets/images/posts/20110524_c0055803_4ddb20d2609e0.png)  
+![](/assets/images/posts/20110524_111841_c0055803_4ddb20d2609e0.jpg)  
   
 그리고 방금 만든 스크립트를, 적용하고자 하는 오브젝트에 적용해 줍니다.  
   
-![](/assets/images/posts/20110524_c0055803_4ddb20d64f471.png)
+![](/assets/images/posts/20110524_111841_c0055803_4ddb20d64f471.jpg)
 
 적용되었습니다.   
   
@@ -105,9 +105,9 @@ public class JPTestColorChange : MonoBehaviour {
   
 ===================================  
   
-![](/assets/images/posts/20110524_c0055803_4ddb34c58ac00.png)
+![](/assets/images/posts/20110524_111841_c0055803_4ddb34c58ac00.jpg)
 
 이것만으로 간단히 칼라 추가. 인터페이스 설정없이 변수만 추가하니까 메뉴가 생기다니 오마이갓.   
   
-![](/assets/images/posts/20110524_c0055803_4ddb35a82d030.png)  
+![](/assets/images/posts/20110524_111841_c0055803_4ddb35a82d030.jpg)  
 이런식으로 int 와 float과 bool 추가해봄. 오오 bool 이 된다   

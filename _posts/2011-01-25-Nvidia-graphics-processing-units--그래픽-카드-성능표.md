@@ -9,7 +9,7 @@ categories: [이글루스 백업, "2011-01"]
   
   
 일단 원하는 내용은... Geforce 7600 GT 와 6600 이므로.   
-![](/assets/images/posts/20110125_c0055803_4d3dd4a2d9701.jpg) 메가(Mega : 100만) 기가( Giga : 10억) 테라(Tera : 1조)   
+![](/assets/images/posts/20110125_043750_c0055803_4d3dd4a2d9701.jpg) 메가(Mega : 100만) 기가( Giga : 10억) 테라(Tera : 1조)   
   
 **일반적으로 퍼져있는 6600 GT를 최소로 봤을때   
   
@@ -36,18 +36,18 @@ Pixel : 1.2GP
 Texture : 2.4G  
 이므로   
   
-![](/assets/images/posts/20110125_c0055803_4d411e6f964f3.png)  
+![](/assets/images/posts/20110125_043750_c0055803_4d411e6f964f3.jpg)  
   
   
   
   
   
-![](/assets/images/posts/20110125_c0055803_4d3dd5098cd16.jpg)  
+![](/assets/images/posts/20110125_043750_c0055803_4d3dd5098cd16.jpg)  
 7600 GS로 계산해 보면   
   
-![](/assets/images/posts/20110125_c0055803_4d411ed16fa7a.png)  
+![](/assets/images/posts/20110125_043750_c0055803_4d411ed16fa7a.jpg)  
 7600 GT 80nm 로 계산해 보면 (숫자 높은것)   
-![](/assets/images/posts/20110125_c0055803_4d411f2d4a9b8.png)  
+![](/assets/images/posts/20110125_043750_c0055803_4d411f2d4a9b8.jpg)  
   
   
   

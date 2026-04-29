@@ -23,10 +23,10 @@ categories: [이글루스 백업, "2011-06"]
 Particle/AlphaBlended 사용해 주십시오.**이미 BlendLate가 많이 사용되어 있으므로 쉐이더를 갑자기 삭제하진 않겠습니다.  
  즉 BlendLate 쉐이더를 쓰셔도 AlphaBlended 쉐이더와 완전 똑같습니다!! 자동으로 그렇게 됩니다.  
 그러므로 실수하셨다고 걱정할 필요 없습니다. **BlendLate 쉐이더를 쓰셔도 되긴 합니다. 단 자제만 해주세요.**  
-![](/assets/images/posts/20110614_c0055803_4df724ff37dfd.png)  
+![](/assets/images/posts/20110614_181107_c0055803_4df724ff37dfd.jpg)  
 수정전. 알파 블렌딩 파이팅이 납니다.   
   
-![](/assets/images/posts/20110614_c0055803_4df72500dbf83.png)
+![](/assets/images/posts/20110614_181107_c0055803_4df72500dbf83.jpg)
 
   
 수정후. 문제가 나지 않습니다. 

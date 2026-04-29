@@ -40,13 +40,13 @@ Rendering of each object happens as follows:
 * 다른 퍼 픽셀 라이트는 추가의 패스로 렌더링 됩니다. 한 라이트당 한 패스로.
 
 For example, if there is some object that's affected by a number of lights (a circle in a picture below, affected by lights A to H): 예를 들어, 만약 어떤 오브젝트가 여러 개의 라이트에 영향을 받는다면 (아래 그림의 공이 A에서 H 까지의 라이트 영향을 받으면)   
-![](/assets/images/posts/20110309_c0055803_4d772b05c2f51.jpg)
+![](/assets/images/posts/20110309_172253_c0055803_4d772b05c2f51.jpg)
 
 Let's assume lights A to H have the same color & intensity, all all of them have Auto rendering mode, so they would be sorted in exactly this order for this object. The brightest lights will be rendered in per-pixel lit mode (A to D), then up to 4 lights in per-vertex lit mode (D to G), and finally the rest of lights in SH (G to H):   
 A 부터 H 까지의 각 라이트는 같은 색과 강도를 가지고 있다고 칩시다. 이 모두들은 자동 렌더링 모드라고 치고요, 그래서 이들은 이 오브젝트를 위한 오더에 확실히 정렬될겁니다. 가장 밝은 라이트들은 퍼 픽셀 라이트 모드로 렌더링 됩니다. (A에서 D) 그리고   
 4개까지 퍼 버텍스 라이트 모드가 됩니다 (D에서 G) , 그리고 최종적으로 나머지는 SH가 됩니다. (G에서 H 까지)
 
-![](/assets/images/posts/20110309_c0055803_4d772bfc76fe1.jpg)
+![](/assets/images/posts/20110309_172253_c0055803_4d772bfc76fe1.jpg)
 
 Note that light groups overlap; for example last per-pixel light blends into per-vertex lit mode so there are less "light popping" as objects and lights move around.   
 라이트 그룹이 오버렙 되는걸 주의하세요 ; 예를 들어 마지막 퍼 픽셀 라이트가 퍼 버텍스 라이트 모드와 블렌딩되고 그래서 그들은 라이트가 돌아다니면서 라이트 팝핑이 적은 오브젝트가 된다.

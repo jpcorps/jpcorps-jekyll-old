@@ -26,7 +26,7 @@ Properties {
 Fallback "VertexLit"  
 }  
 
-![](/assets/images/posts/20110215_c0055803_4d5a2c9f1760f.jpg)
+![](/assets/images/posts/20110215_164316_c0055803_4d5a2c9f1760f.jpg)
 
 ... 야
 
@@ -43,13 +43,13 @@ Fallback "VertexLit"
   
 이 데이터를 그대로 아이폰 3GS 로 빌드해서 프레임을 테스트 해 보았습니다.   
   
-****Diffuse fast (Vertexlit) : 17 프레임****![](/assets/images/posts/20110215_c0055803_4d5a1b32cd515.png)  
-****Diffuse : 29.75 프레임****![](/assets/images/posts/20110215_c0055803_4d5a1b818551c.png)  
+****Diffuse fast (Vertexlit) : 17 프레임****![](/assets/images/posts/20110215_164316_c0055803_4d5a1b32cd515.jpg)  
+****Diffuse : 29.75 프레임****![](/assets/images/posts/20110215_164316_c0055803_4d5a1b818551c.jpg)  
   
 
 ....읭?
 
-![](/assets/images/posts/20110215_c0055803_4d5a2322e530f.jpg)자, 잠깐. 지금 DP call 한계를 2배나 벗어났다고! 30프레임 가까이 나오면 어떡하자는거야!!!   
+![](/assets/images/posts/20110215_164316_c0055803_4d5a2322e530f.jpg)자, 잠깐. 지금 DP call 한계를 2배나 벗어났다고! 30프레임 가까이 나오면 어떡하자는거야!!!   
   
   
 하도 이상해서 simple verex light shader를 직접 제작해서 넣어 봤습니다.   
@@ -83,7 +83,7 @@ SubShader {
   
   
   
-![](/assets/images/posts/20110215_c0055803_4d5a1be77d9bf.png)
+![](/assets/images/posts/20110215_164316_c0055803_4d5a1be77d9bf.jpg)
 
 그래도 15프레임....
 
@@ -128,22 +128,22 @@ Another advantage of deferred rendering is that it allows the GPU to perform hid
 공을 커다랗게 하나만 만들어 테스트 (버텍스 쉐이더 부담은 줄이고 픽셀쉐이더에게만 부담주기죠)   
   
 ****Diffuse Fast : 30.03 프레임****  
-![](/assets/images/posts/20110215_c0055803_4d5a28680a6fb.png)  
+![](/assets/images/posts/20110215_164316_c0055803_4d5a28680a6fb.jpg)  
 
 **Diffuse : 29.46 프레임**
 
-![](/assets/images/posts/20110215_c0055803_4d5a28868724f.png)뭐 일단 오차범위. 별 차이는 없군요. 가려진 면이 여전히 많아서 그런 걸까요?   
+![](/assets/images/posts/20110215_164316_c0055803_4d5a28868724f.jpg)뭐 일단 오차범위. 별 차이는 없군요. 가려진 면이 여전히 많아서 그런 걸까요?   
   
 한번 더 테스트   
   
 ****Diffuse Fast : 24.43****  
-![](/assets/images/posts/20110215_c0055803_4d5a2bda63e11.png)
+![](/assets/images/posts/20110215_164316_c0055803_4d5a2bda63e11.jpg)
 
 **Diffuse : 26.95 프레임(오차범위)**
 
   
   
-![](/assets/images/posts/20110215_c0055803_4d5a2bb6ecb03.png)  
+![](/assets/images/posts/20110215_164316_c0055803_4d5a2bb6ecb03.jpg)  
   
   
   

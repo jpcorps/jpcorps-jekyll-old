@@ -5,7 +5,7 @@ date: 2009-09-01 16:37:14
 categories: [이글루스 백업, "2009-09"]
 ---
 
-![](/assets/images/posts/20090901_c0055803_4a9cceed6a492.jpg)                         Lambert                   Half Lambert Powerd 4               Half Lambert Powerd 2   
+![](/assets/images/posts/20090901_163714_c0055803_4a9cceed6a492.jpg)                         Lambert                   Half Lambert Powerd 4               Half Lambert Powerd 2   
   
 쉐이더 만들다가 백업개념으로.   
   

@@ -9,7 +9,7 @@ categories: [이글루스 백업, "2010-05"]
 괜히 했나라는 생각이...   
   
   
-![](/assets/images/posts/20100501_c0055803_4bdb9bd201312.jpg)
+![](/assets/images/posts/20100501_094408_c0055803_4bdb9bd201312.jpg)
 
 ![](https://local.sec.samsung.com/comLocal/event/mon_100405/images/editor/1272667548544.jpg)
 

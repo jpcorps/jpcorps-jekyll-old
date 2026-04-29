@@ -11,7 +11,7 @@ categories: [이글루스 백업, "2009-10"]
   
 자 이제 디렉터의 숙명인 서류작업으로 들어가 볼까 OTL   
   
-![](/assets/images/posts/20091014_c0055803_4ad55645e6c5a.jpg)  
+![](/assets/images/posts/20091014_134110_c0055803_4ad55645e6c5a.jpg)  
   
-[#VIDEO|20091014151000002946191701.jpg|pds/200910/14/03/|mid|480|400|pds17#]![](/assets/images/posts/20091014_c0055803_4ad58f228b640.jpg)  
+[#VIDEO|20091014151000002946191701.jpg|pds/200910/14/03/|mid|480|400|pds17#]![](/assets/images/posts/20091014_134110_c0055803_4ad58f228b640.jpg)  
 \* 알바선생 설명용 그림 추가  

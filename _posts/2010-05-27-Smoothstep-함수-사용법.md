@@ -13,7 +13,7 @@ categories: [이글루스 백업, "2010-05"]
 ..라고 하는데 뭐야 저게...   
 라고 해서 알아보니.   
   
-![](/assets/images/posts/20100527_c0055803_4bfdc52ce4b5c.jpg)
+![](/assets/images/posts/20100527_102806_c0055803_4bfdc52ce4b5c.jpg)
 
 (그림1)
 
@@ -21,20 +21,20 @@ categories: [이글루스 백업, "2010-05"]
 일단 0에서 1로 가는 Liner 한 그래프가 있다고 치죠. 저걸 거꾸로 하면 단순무식한 렘버트 출력값과 같겠죠 (...)   
   
   
-![](/assets/images/posts/20100527_c0055803_4bfdc5a9e68b6.jpg)
+![](/assets/images/posts/20100527_102806_c0055803_4bfdc5a9e68b6.jpg)
 
 (그림2)
 
 그리고 min과 max 값을 정합니다. 뭐 이건 0과 1로 정하면 원래 그림인 (그림 1)과 같지만 여기서는 0.2와 0.8로 정했다고 치죠.   
   
-![](/assets/images/posts/20100527_c0055803_4bfdc6232bc2d.jpg)
+![](/assets/images/posts/20100527_102806_c0055803_4bfdc6232bc2d.jpg)
 
 (그림3)
 
   
 X 값이 min 값보다 작으면 최종 결과는 0 값이 나오고, X 값이 max보다 크면 1값이 나오는건 쉽지요.  
   
-![](/assets/images/posts/20100527_c0055803_4bfdc65d93977.jpg)
+![](/assets/images/posts/20100527_102806_c0055803_4bfdc65d93977.jpg)
 
 (그림4)
 
@@ -45,15 +45,15 @@ X 값이 min 값보다 작으면 최종 결과는 0 값이 나오고, X 값이 m
 ... 이거 뭐야 몰라 무서워... 그래픽쟁이한테 이런 수학 공식 들이밀지 마... (이럴때만 그래픽인척 하는 초파리이자 박쥐)   
   
 뭐 그래서 더 생각 안하고, 그림으로 만들어 봤습니다. -\_-   
-![](/assets/images/posts/20100527_c0055803_4bfdc7837bc7e.png)하프 렘버트 출력물을   
-![](/assets/images/posts/20100527_c0055803_4bfdc7b42bd66.png)밝기에 따라 3단계로 적용. smoothstep 사용. Liner 하지 않다는 것이 보입니다.   
-![](/assets/images/posts/20100527_c0055803_4bfdc7fcd423f.png)Warp 대용으로 사용한 최종 결과물. 텍스쳐 셈플러 하나 줄였습니다. 만세. 근데 이게 더 무거우면 어쩌지 ㄷㄷㄷ   
+![](/assets/images/posts/20100527_102806_c0055803_4bfdc7837bc7e.jpg)하프 렘버트 출력물을   
+![](/assets/images/posts/20100527_102806_c0055803_4bfdc7b42bd66.jpg)밝기에 따라 3단계로 적용. smoothstep 사용. Liner 하지 않다는 것이 보입니다.   
+![](/assets/images/posts/20100527_102806_c0055803_4bfdc7fcd423f.jpg)Warp 대용으로 사용한 최종 결과물. 텍스쳐 셈플러 하나 줄였습니다. 만세. 근데 이게 더 무거우면 어쩌지 ㄷㄷㄷ   
   
   
   
 즉 아마도 Smoothstep의 보간법은 이런 결과물을 내놓는 듯 합니다.   
   
-![](/assets/images/posts/20100527_c0055803_4bfdca6ceb256.jpg)
+![](/assets/images/posts/20100527_102806_c0055803_4bfdca6ceb256.jpg)
 
 (그림5)
 
