@@ -5,6 +5,7 @@ date: 2008-06-25 14:59:23
 categories: [이글루스 백업, "2008-06"]
 ---
 
+{% raw %}
 Z buffer 옵션에 대한 이해가 가물가물했는데, 잘 정리된 문구가 있군요.   
 이것만으로도 충분히 이해가 되네요.  
   
@@ -23,3 +24,4 @@ User interfaces would benefit from this setting.  The interface would draw with
 **Test On Write On**
 
 This setting is the typical operation of the Zbuffer you would expect in normal operation.  Objects will test the Zbuffer to determine if they need to draw and write there own values back into the Zbuffer.
+{% endraw %}

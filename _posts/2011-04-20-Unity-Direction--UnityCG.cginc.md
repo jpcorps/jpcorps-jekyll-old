@@ -5,6 +5,7 @@ date: 2011-04-20 11:22:26
 categories: [이글루스 백업, "2011-04"]
 ---
 
+{% raw %}
 **이것뿐?   
   
   
@@ -47,3 +48,4 @@ inline float3 ObjSpaceViewDir( in float4 v )
  float3 objSpaceCameraPos = mul(\_World2Object, float4(\_WorldSpaceCameraPos.xyz, 1)).xyz \* unity\_Scale.w;  
  return objSpaceCameraPos - v.xyz;  
 }
+{% endraw %}

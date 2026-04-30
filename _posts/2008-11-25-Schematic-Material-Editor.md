@@ -5,6 +5,7 @@ date: 2008-11-25 10:46:52
 categories: [이글루스 백업, "2008-11"]
 ---
 
+{% raw %}
 비주얼 쉐이더 연구중.  
 첫 번째 테스트한 프로그램은 SME(Schematic Material Editor )  
   
@@ -27,3 +28,4 @@ HLSL 코드와 전혀 상관없는 녀석이었다.
 ![](/assets/images/posts/20081125_104652_c0055803_492b58fec1948.jpg)  
   
   
+{% endraw %}

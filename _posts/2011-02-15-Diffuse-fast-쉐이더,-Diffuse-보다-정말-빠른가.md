@@ -5,6 +5,7 @@ date: 2011-02-15 16:43:16
 categories: [이글루스 백업, "2011-02"]
 ---
 
+{% raw %}
   
 첫 질문은 단순한 질문에서 시작하였습니다. **가장 권장할만 하고, 가장 추천해야 할 쉐이더는 무엇인가?   
 어떤 쉐이더를 사용해야 PC에서도, 아이폰에서도 만족할 만한 속도와 품질과 편리함을 가지고 있는 쉐이더인가?**  
@@ -165,3 +166,4 @@ Another advantage of deferred rendering is that it allows the GPU to perform hid
 캐릭터 처럼 겹치는 vertex가 많은 상태에서는 오히려 Diffuse Fast(Vertexlit) 보다 빠를 수도 있으며, 일반적인 경우에서도 대단한 차이가 나지 않습니다.   
   
 그러므로 모바일에서도 캐릭터에는 Diffuse 쉐이더를 써도 괜찮을 것 같습니다. (배경은 여전히 Diffuse Fast를 쓰세요. 사실 더 권장하는건 Unlit 쉐이더입니다만)** 
+{% endraw %}

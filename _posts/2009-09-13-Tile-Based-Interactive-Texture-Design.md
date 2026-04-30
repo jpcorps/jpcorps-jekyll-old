@@ -5,6 +5,7 @@ date: 2009-09-13 18:44:26
 categories: [이글루스 백업, "2009-09"]
 ---
 
+{% raw %}
 [fulltext.pdf](https://pds16.egloos.com/pds/200909/13/03//fulltext.pdf)  
   
 
@@ -48,3 +49,4 @@ In this paper, we present a novel interactive texture design scheme based on the
 Keywords  Interactive texture design - Texture synthesis - Image composition -  *ω*-tile
 
   
+{% endraw %}

@@ -5,6 +5,7 @@ date: 2012-04-25 23:53:16
 categories: [이글루스 백업, "2012-04"]
 ---
 
+{% raw %}
 **[Unity3D로 풀3D web mmorpg 만들기](https://www.slideshare.net/jpcorp/unity3d-3d-web-mmorpg "Unity3D로 풀3D web mmorpg 만들기")**
 
 View more [presentations](https://www.slideshare.net/) from [jpcorp](https://www.slideshare.net/jpcorp)
@@ -14,3 +15,4 @@ View more [presentations](https://www.slideshare.net/) from [jpcorp](https://www
   
 이 자리에 낀 것 만으로도 영광스러워졌달까...   
 내년에는 더 발전하겠지요. 내년에는 저도 더욱 개그넘치는 PT를 만들 수 있도록 열심히 노력해야겠습니다. (...)   
+{% endraw %}

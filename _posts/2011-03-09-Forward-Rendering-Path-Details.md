@@ -5,6 +5,7 @@ date: 2011-03-09 17:22:53
 categories: [이글루스 백업, "2011-03"]
 ---
 
+{% raw %}
 # Forward Rendering Path Details
 
 포워드 렌더링 패스 디테일   
@@ -82,3 +83,4 @@ SH(구면조화함수) 라이트는 아주 빠릅니다. 이것은 CPU에 아주
 
 In summary, SH lights are often good enough for small dynamic objects.  
 요약하자면, SH 라이트는 작은 동적 오브젝트에는 보통 괜찮습니다.
+{% endraw %}

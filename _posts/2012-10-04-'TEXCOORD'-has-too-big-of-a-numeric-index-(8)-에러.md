@@ -5,6 +5,7 @@ date: 2012-10-04 17:31:51
 categories: [이글루스 백업, "2012-10"]
 ---
 
+{% raw %}
 <https://forum.unity3d.com/threads/56180-Strumpy-Shader-Editor-4.0a-Massive-Improvements/page23>  
   
   
@@ -55,3 +56,4 @@ The way to work around this issue is to reduce the number of interpolators you a
 This issue can also be run into if you have too many unity texture samples because the offset UV's / tiling / scaling is calculated via the texture matrix in the vertex shader and passed through as an interpolator. There is a node that can help with this (Mesh UV), but it bypasses unity's nice material stuff. If the texture coordinates were calculated in the pixel shader this would not be so much an issue, but this is out of the shader editors control.  
   
 If you are curious as to why this does not happen with transparent shaders it is because they don't calculate the same permutations of shaders that an opaque object does. In other words you kind of got lucky that you didn't go over the interpolator count before.
+{% endraw %}

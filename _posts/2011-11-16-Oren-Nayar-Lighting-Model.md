@@ -5,6 +5,7 @@ date: 2011-11-16 11:47:02
 categories: [이글루스 백업, "2011-11"]
 ---
 
+{% raw %}
 출처: 렐릭의 포프님!!  
 공개하셨다길래 무의식중에 일단 퍼왔...  
   
@@ -73,3 +74,4 @@ fakey = fakey\_magic - fakey\*fakey\_magic;
 return lerp( result, fakey, roughness );
 
 }
+{% endraw %}

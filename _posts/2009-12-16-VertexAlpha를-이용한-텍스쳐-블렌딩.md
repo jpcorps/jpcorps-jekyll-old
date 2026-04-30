@@ -5,6 +5,7 @@ date: 2009-12-16 10:13:18
 categories: [이글루스 백업, "2009-12"]
 ---
 
+{% raw %}
 ..암것도 아닙니다. 말만 거창하지.   
 해본게 처음이라 올린 것 뿐이빈다. (쿨럭)   
   
@@ -21,3 +22,4 @@ Vertex Alpha는 기본적이면서도 처음 써본거라..
 float4 DTfinal = lerp(DT2, DT, In.VertexColors.a); // Blending by vertexalpha  
 처리하면 끝...   
 간단하긴 굉장히 간단했는데 오히려 시간내는게 더 힘들었어요 OTL   
+{% endraw %}

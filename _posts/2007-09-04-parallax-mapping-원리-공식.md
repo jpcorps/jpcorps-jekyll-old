@@ -5,6 +5,7 @@ date: 2007-09-04 17:06:12
 categories: [이글루스 백업, "2007-09"]
 ---
 
+{% raw %}
 [parallax\_mapping.pdf](https://pds5.egloos.com/pds/200709/04/03//parallax_mapping.pdf)  
   
 ![](/assets/images/posts/20070904_170612_c0055803_46dd02b340737.jpg)좌측이 일반 범프 맵핑. 오른쪽이 시차보정한 페럴렉스 맵핑.  
@@ -55,3 +56,4 @@ P\* ( EYE.x / EYE.z  ,  EYE.y / EYE.z ,  1 )
 ;  
 ;Tn = To + (V \* (H \* Off + (-0.5 \* Off))  
   
+{% endraw %}

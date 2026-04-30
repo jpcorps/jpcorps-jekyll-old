@@ -5,6 +5,7 @@ date: 2011-07-05 10:04:40
 categories: [이글루스 백업, "2011-07"]
 ---
 
+{% raw %}
 내장되어있는 버텍스 라이트 쉐이더는 이것저것 많이도 고려하길래 , 그냥 암 생각 없는 기초버전의 Vertexlight 쉐이더 기본형이 필요해서 제작해 봤음. 핵심은 Vertexshader에서 ShadeVertexLights 함수로 계산되는 부분인데, 이 부분을 UnityCG.cginc 에서 파고 들어가보니 아래와 같이 나온다.   
   
 **float3 ShadeVertexLights (float4 vertex, float3 normal)  
@@ -76,3 +77,4 @@ Shader "New Shader" {
  }   
  FallBack "Vertexlit"  
 }
+{% endraw %}

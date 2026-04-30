@@ -5,6 +5,7 @@ date: 2009-12-07 10:24:54
 categories: [이글루스 백업, "2009-12"]
 ---
 
+{% raw %}
 <https://www.pegtop.net/delphi/articles/blendmodes/>  
   
 
@@ -14,3 +15,4 @@ categories: [이글루스 백업, "2009-12"]
 
   
 그런데 정작 쉐이더 공식에 이미지 합성을 이렇게 했더니 원하는대로 안나온다. 뭔가 이유라도..?  
+{% endraw %}

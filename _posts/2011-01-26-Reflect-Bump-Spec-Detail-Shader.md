@@ -5,6 +5,7 @@ date: 2011-01-26 18:17:32
 categories: [이글루스 백업, "2011-01"]
 ---
 
+{% raw %}
 이건 공개해도 될 내용으로 검열완료.   
 ![](/assets/images/posts/20110126_181732_c0055803_4d3fd8eeb717e.jpg)
 
@@ -18,3 +19,4 @@ uv\_Texture   uv\_Texture2  하면 uv 1채널로 다 나오구요
 uv\_Texture   uv2\_Texture2 해줘야 2번 채널이 활성화됩니다 :)   
   
 노말 연산도 지 멋대로고 하여간 웃김 ㅋㅋ   
+{% endraw %}

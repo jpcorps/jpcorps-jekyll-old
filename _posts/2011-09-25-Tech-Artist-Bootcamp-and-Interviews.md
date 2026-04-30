@@ -5,6 +5,7 @@ date: 2011-09-25 19:03:22
 categories: [이글루스 백업, "2011-09"]
 ---
 
+{% raw %}
 [Tech Artist Bootcamp and Interviews](https://ozlael.egloos.com/3739565)  
   
 오즈라엘님이 올려주셨다! 올려주셨다!!  
@@ -82,3 +83,4 @@ Bronwen Grimes, TA for Valve Software, discusses why it is important for a TA to
 Ben Cloward, TA for Bioware Austin, talks about how a TA can solve huge problems or automate complex tasks quickly through the power of scripting, resulting in more time to engage in other creative work. Also, he gives a stern warning for students looking to enter the industry with work that is 'good enough' in school.
 
  if(!document.getElementById("empathyButtonJS")) { strLoginURL = "https://ozlael.egloos.com/pop\_bridge.php?url=http%3A%2F%2Fozlael.egloos.com%2F3739565"; window.sp\_pop\_url = "https://cyxso.cyworld.com/PopUpLogin.sk?loginstr=direct&redirection="+encodeURIComponent(strLoginURL)+"&pop=direct"; var se = document.createElement('script'); se.type = "text/javascript"; se.src = "https://csp.cyworld.com/js/sp.js"; se.id = "empathyButtonJS"; document.getElementsByTagName('head')[0].appendChild(se); } 
+{% endraw %}

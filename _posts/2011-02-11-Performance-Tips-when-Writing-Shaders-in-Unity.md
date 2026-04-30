@@ -5,6 +5,7 @@ date: 2011-02-11 14:44:04
 categories: [이글루스 백업, "2011-02"]
 ---
 
+{% raw %}
 # Performance Tips when Writing Shaders
 
 ## Use Common sense ;)
@@ -65,3 +66,4 @@ Fixed function [AlphaTest](https://unity3d.com/support/documentation/Components/
 On some platforms (mostly mobile GPUs found in iOS and Android devices), using [ColorMask](https://unity3d.com/support/documentation/Components/SL-Pass.html) to leave out some channels (e.g. `ColorMask RGB`) can be expensive, so only use it if really necessary.   
   
 어떤 플렛폼에서 (iOS나 안드로이드 디바이스에서 찾을 수 있는 대부분의 모바일 GPU에서는) 는 칼라 마스크를 써서 몇몇 채널을 남겨 놓는 것이 더 비쌉니다. 그러므로 이건 꼭 필요할때만 사용하세요.
+{% endraw %}

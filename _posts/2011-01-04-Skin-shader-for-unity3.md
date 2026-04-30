@@ -5,6 +5,7 @@ date: 2011-01-04 15:34:10
 categories: [이글루스 백업, "2011-01"]
 ---
 
+{% raw %}
 <https://forum.unity3d.com/threads/64210-Skin-Shader-for-U3-need-help-with-converting>.  
   
   
@@ -100,3 +101,4 @@ Light from below
   
 Directional light with soft shadows  
 ![](https://dl.dropbox.com/u/12552166/Unity/SkinShader%20for%20Unity%203/SkinShader_LightFromRightWithShadows.jpg)
+{% endraw %}

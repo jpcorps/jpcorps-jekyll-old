@@ -5,6 +5,7 @@ date: 2006-12-18 00:09:51
 categories: [이글루스 백업, "2006-12"]
 ---
 
+{% raw %}
 # GMail Drive shell extension
 
 탐색기에 Gmail 웹하드를 달자 ^^  
@@ -28,3 +29,4 @@ GmailFS는 Gmail을 File System으로 인식하게 해주는 프로그램이다.
   
 [gmailfs1.1.zip](https://pds4.egloos.com/pds/200612/18/03//gmailfs1.1.zip)   
   
+{% endraw %}

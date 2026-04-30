@@ -5,6 +5,7 @@ date: 2012-08-18 13:03:26
 categories: [이글루스 백업, "2012-08"]
 ---
 
+{% raw %}
 물리기반 셰이더를 짤때 가장 먼저 고려되는게 Normalized Blinn-Phong 셰이더입니다.
 
 아시다시피 게임에서 널리 쓰이는 Specular 모델인 Phong 셰이딩은 그다지 물리적으로 정확한 모델은 아닙니다. 실제 Specular는 방향성을 갖고 있지만 Phong 셰이딩은 항상 원형 형태로 Specular가 생기거든요.
@@ -49,3 +50,4 @@ float Lyon(float3 normal, float3 view, float3 light){
   
 이제 Phong 보다도 싼 Lyon/Blinn-Phong 모델을 써서 물리적으로 좀더 정확한 셰이더를 만들어 보세요!
 ```
+{% endraw %}

@@ -5,6 +5,7 @@ date: 2007-06-24 15:04:00
 categories: [이글루스 백업, "2007-06"]
 ---
 
+{% raw %}
 https://bfilm.net/tt/trackback/147   
 에서 트랙백.   
   
@@ -109,3 +110,4 @@ Bump, Displacement Map과 Normal Map의 가장 큰 차이점은 전자는 값이
 기존의 Bump는 단순히 어둡고 밝음을 표현하는데 "깊이정보"로 표현하는데 그쳤다면. 노말맵은 x.y.z 축의 기울기 값을 통해 정확한 "Normal Direct"를 찾아주기 때문에, 존재하지 않는 Mesh가 생성된듯한 효과를 주게 되는 것입니다. 하지만 Normal Map으로 생성된 가상의 기울기 값들도, 기존의 Mesh에서만 랜더링 되기 때문에 일반 Bump Map과 비슷한 한계를 가집니다. 이 부분에 대해선 직접 만들어 보면서 자세히 설명드릴 기회가 있을겁니다.  
   
 다음 시간엔, 오늘의 개념을 활용하여, Normal Map 제작툴을 활용하지 않고, Lighting을 이용해 Normal Map을 만들어 보면서, 좀더 확실한 개념을 잡아보도록 하겠습니다.
+{% endraw %}

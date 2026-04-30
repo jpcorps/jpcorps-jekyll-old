@@ -5,6 +5,7 @@ date: 2010-12-31 14:56:43
 categories: [이글루스 백업, "2010-12"]
 ---
 
+{% raw %}
 # Unity's Rendering Pipeline
 
 Shaders define both how an object looks by itself (its material properties) and how it reacts to the light. Because lighting calculations must be built into the shader, and there are many possible light & shadow types, writing quality shaders that "just work" would be an involved task. To make it easier, Unity 3 introduces [Surface Shaders](https://unity3d.com/support/documentation/Components/SL-SurfaceShaders.html), where all the lighting, shadowing, lightmapping, forward vs. deferred lighting things are taken care of automatically.
@@ -48,3 +49,4 @@ Since vertex lighting is most often used on platforms that do not support progra
 디퍼드 렌더링 패스   
 ... 아래는 일단 패스  
  
+{% endraw %}

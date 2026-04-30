@@ -5,6 +5,7 @@ date: 2010-12-15 03:52:01
 categories: [이글루스 백업, "2010-12"]
 ---
 
+{% raw %}
 ## If you are about to lightmap your first scene in Unity, this [Quickstart Guide](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/Documentation/Manual/Lightmapping.html) might help you out. Lightmapping is fully integrated in Unity, so that you can build entire levels from within the Editor, lightmap them and have your materials automatically pick up the lightmaps without you having to worry about it. Lightmapping in Unity means that all your lights' properties will be mapped directly to the Beast lightmapper and baked into textures for great performance. Unity Pro extends this functionality by Global Illumination, allowing for baking realistic and beautiful lighting, that would otherwise be impossible in realtime. Additionally Unity Pro brings you sky lights and emissive materials for even more interesting scene lighting. In this page you will find a more in-depth description of all the attributes that you can find in the Lightmapping window. To open the Lightmapping window select **Window – Lightmapping**. Object
 
 Per-object bake settings for lights, mesh renderers and terrains - depending on the current selection.
@@ -167,3 +168,4 @@ Remember that Lock Atlas locks only atlasing, not the mesh UVs. If you change yo
 If you need even more control over the bake process, see the [custom Beast settings](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/Documentation/Manual/LightmappingCustomSettings.html) page.
 
 Page last updated: 2010-11-02
+{% endraw %}

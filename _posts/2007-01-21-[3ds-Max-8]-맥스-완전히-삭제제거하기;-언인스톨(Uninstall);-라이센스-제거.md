@@ -5,6 +5,7 @@ date: 2007-01-21 00:36:49
 categories: [이글루스 백업, "2007-01"]
 ---
 
+{% raw %}
 (3ds Max 버전 8 을 기준으로 설명)  
   
 3ds Max를 다시 설치하거나 버전업을 하기 위해서는, 기존의 버전을 하드에서 깨끗이 삭제하는 것이 좋습니다. 그런데 3ds Max 는 여러가지 프로그램들로 구성되어 있는 방대한 소프트웨어이기에, 제거하는 것도 그리 간단하지 않더군요.  
@@ -37,3 +38,4 @@ C:\Documents and Settings\All Users\Application Data\**Autodesk**
   
   
 (C:\Documents and Settings\All Users\Application Data 폴더는 히든(Hidden) 폴더이기에, 잘 찾아지지 않을 수도 있습니다.)
+{% endraw %}

@@ -5,6 +5,7 @@ date: 2012-09-05 17:54:35
 categories: [이글루스 백업, "2012-09"]
 ---
 
+{% raw %}
  Shader "TestRedShader" {  
     Properties {  
 //      \_MainTex ("Texture1", 2D) = "white" {}  
@@ -53,3 +54,4 @@ Category{
     
     
 }
+{% endraw %}

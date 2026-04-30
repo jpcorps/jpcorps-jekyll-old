@@ -5,6 +5,7 @@ date: 2011-05-24 11:18:41
 categories: [이글루스 백업, "2011-05"]
 ---
 
+{% raw %}
 문법 기본은 당연히 C#.   
 자바스크립트로 짤 수도 있습니다만 (그리고 그게 더 빠릅니다만) 편한건 C#.  
 쉐이더 말고 C# 작업은, 그리고 스크립트 작업은 한 번도 해본 적이 없어서 이번이 처음입니다.   
@@ -111,3 +112,4 @@ public class JPTestColorChange : MonoBehaviour {
   
 ![](/assets/images/posts/20110524_111841_c0055803_4ddb35a82d030.jpg)  
 이런식으로 int 와 float과 bool 추가해봄. 오오 bool 이 된다   
+{% endraw %}

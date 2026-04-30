@@ -5,6 +5,7 @@ date: 2011-04-22 16:58:35
 categories: [이글루스 백업, "2011-04"]
 ---
 
+{% raw %}
  구시대 쉐이더. 버린것. 백업.
 
 Shader "AT2/Char/Main" {
@@ -198,3 +199,4 @@ Shader "AT2/Char/Main" {
 
     Fallback "Diffuse"  
   }
+{% endraw %}

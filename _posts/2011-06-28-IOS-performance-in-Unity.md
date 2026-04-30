@@ -5,6 +5,7 @@ date: 2011-06-28 11:05:35
 categories: [이글루스 백업, "2011-06"]
 ---
 
+{% raw %}
 [# iOS](file:///Applications/Unity/UnityCrack.app/Contents/Documentation/Documentation/Manual/Optimizing%20Graphics%20Performance.html)
 
 If you want to optimize your content for iOS, then it is beneficial for you to [learn more about iOS hardware devices](file:///Applications/Unity/UnityCrack.app/Contents/Documentation/Documentation/Manual/iphone-Hardware.html).
@@ -135,3 +136,4 @@ All these optimizations will save you precious CPU cycles. Therefore, putting ex
 * [iOS Automatic Draw Call Batching](file:///Applications/Unity/UnityCrack.app/Contents/Documentation/Documentation/Manual/iphone-DrawCall-Batching.html)
 * [Modeling Optimized Characters](file:///Applications/Unity/UnityCrack.app/Contents/Documentation/Documentation/Manual/Modeling%20Optimized%20Characters.html)
 * [Rendering Statistics](file:///Applications/Unity/UnityCrack.app/Contents/Documentation/Documentation/Manual/RenderingStatistics.html#RenderingStatisticsIPhone)
+{% endraw %}

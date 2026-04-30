@@ -5,6 +5,7 @@ date: 2011-05-16 11:59:54
 categories: [이글루스 백업, "2011-05"]
 ---
 
+{% raw %}
 # Deferred Lighting Rendering Path Details
 
 This page describes details of Deferred Lighting [rendering path](https://unity3d.com/support/documentation/Manual/RenderingPaths.html). For a technical overview of what Deferred Lighting is, see [Deferred Lighting Approaches article](https://www.realtimerendering.com/blog/deferred-lighting-approaches/).
@@ -87,3 +88,4 @@ If a light has shadows enabled, they are rendered and applies in this pass as we
 Final pass produces final rendered image. Here all objects are rendered again; with shaders that fetch the lighting, combine it with textures and add any emissive lighting.
 
 Lightmaps are also applied in the final pass. Close to the camera, realtime lighting is used, and only baked indirect lighting is added. This crossfades into fully baked lighting further away from the camera
+{% endraw %}

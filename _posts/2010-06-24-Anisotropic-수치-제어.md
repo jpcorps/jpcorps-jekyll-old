@@ -5,6 +5,7 @@ date: 2010-06-24 15:57:29
 categories: [이글루스 백업, "2010-06"]
 ---
 
+{% raw %}
     TSAMP\_MagFilter = TEXF\_Anisotropic  
     TSAMP\_MinFilter = TEXF\_Anisotropic  
     TSAMP\_MipFilter = TEXF\_Anisotropic  
@@ -21,3 +22,4 @@ categories: [이글루스 백업, "2010-06"]
   
   
 ![](/assets/images/posts/20100624_155729_c0055803_4c23380d1a670.jpg)
+{% endraw %}

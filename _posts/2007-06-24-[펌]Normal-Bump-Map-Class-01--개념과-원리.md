@@ -5,6 +5,7 @@ date: 2007-06-24 15:02:04
 categories: [이글루스 백업, "2007-06"]
 ---
 
+{% raw %}
  https://bfilm.net/tt/trackback/146   
 [Bfilm.net](https://www.bfilm.net/tt/) 에서 트랙백합니다.   
   
@@ -76,3 +77,4 @@ Hard 및 Soft Edge 별 노말값의 차이 (매쉬의 노말값이 아닌 랜더
   
   
 이번시간엔 Normal을 설명하는데만 시간이 다 흘럿군요. 다음시간엔 Normal Map의 개념과 기본원리를 설명하겠습니다. 그럼~~  
+{% endraw %}

@@ -5,6 +5,7 @@ date: 2010-04-01 23:06:29
 categories: [이글루스 백업, "2010-04"]
 ---
 
+{% raw %}
 [1부 바로가기](https://chulin28ho.egloos.com/5267860)[2부 바로가기](https://chulin28ho.egloos.com/5268685)[3부 바로가기](https://chulin28ho.egloos.com/5269434)[4부 바로가기](https://chulin28ho.egloos.com/5270691)[5부 바로가기](https://chulin28ho.egloos.com/5271687)[6부 바로가기](https://chulin28ho.egloos.com/5272883)우아. 오래 지났습니다 ㄷㄷㄷ   
 지난 번 쓴 6부가 3월 18일이었으니까, 벌써 보름이 다 되어 가네요 ㄷㄷㄷ   
   
@@ -270,3 +271,4 @@ Z Write는? 안합니다만, 어차피 가려졌으니까 필요가 없습니다
 그럼 이렇게 예상치도 못하게 7강까지 끌었던 Z 버퍼의 Read/Write 개념을 끝내겠습니다.   
 그동안 봐주셔서 감사합니다. :)  
 ![](/assets/images/posts/20100401_230629_c0055803_4bb8b5ab394e7.jpg)
+{% endraw %}

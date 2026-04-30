@@ -5,6 +5,7 @@ date: 2009-11-11 14:21:07
 categories: [이글루스 백업, "2009-11"]
 ---
 
+{% raw %}
 [Game Dev./Shadows](https://www.egloos.com/category/Game%20Dev./Shadows) 2008/03/05 22:29 posted by sonee 
 
 [![사용자 삽입 이미지](https://cfs5.tistory.com/upload_control/download.blog?fhandle=YmxvZzk4OTRAZnM1LnRpc3RvcnkuY29tOi9hdHRhY2gvMC82LkpQRw%3D%3D)](https://cfs5.tistory.com/upload_control/download.blog?fhandle=YmxvZzk4OTRAZnM1LnRpc3RvcnkuY29tOi9hdHRhY2gvMC82LkpQRw%3D%3D)
@@ -54,3 +55,4 @@ Cubemap shadow는 별다른건 없고, 걍 해당 라이트 기준에서 6방향
   
 realtime에서는 매 장면을 그릴때마다 그림자를 업데이트해줘야 하는 까닭에 퀄리티를 희생하고, 속도를 높이는 알고리즘으로 발전이 되어 왔습니다.   
 그러나 하드웨어의 발전 속도와는 다르게 그림자 기법은 크게 발전하지 않았는데 어쩌면 지금까지 사용했던 텍스쳐에 라이트로 바라본 이미지 그리기를 버리고, 새로운 기법을 찾아보는 것이 맞을 지도 모르겠네요.
+{% endraw %}

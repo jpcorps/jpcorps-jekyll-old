@@ -5,6 +5,7 @@ date: 2011-02-11 14:43:40
 categories: [이글루스 백업, "2011-02"]
 ---
 
+{% raw %}
 # Performance of Unity shaders
 
 There are a number of factors that can affect the overall performance of your game. This page will talk specifically about the performance considerations for [Built-in Shaders](https://unity3d.com/support/documentation/Components/Built-in%20Shader%20Guide.html). Performance of a shader mostly depends on two things: shader itself and which [Rendering Path](https://unity3d.com/support/documentation/Manual/RenderingPaths.html) is used by the project or specific camera. For performance tips when writing your own shaders, see [ShaderLab Shader Performance](https://unity3d.com/support/documentation/Components/SL-ShaderPerformance.html) page.   
@@ -50,3 +51,4 @@ Out of [Built-in Shaders](https://unity3d.com/support/documentation/Components/B
 Additionally, Unity has several simplified shaders targeted at mobile platforms, under "Mobile" category. These shaders work on other platforms as well, so if you can live with their simplifications (e.g. approximate specular, no per-material color support etc.), try using them!   
   
 추가적으로, 유니티는 모바일 카테고리에 몇 개의 추가적인 간단한 쉐이더를 가지고 있습니다. 이 쉐이더는 다른 플렛폼에서도 잘 돌고, 그리고 만일 당신이 이 단순한걸 써도 되는 분위기라면 이걸 쓰십시오!! (예로. 대충 계산하는 스페큘러, per 메터리얼 칼라 서포트라던가.)
+{% endraw %}

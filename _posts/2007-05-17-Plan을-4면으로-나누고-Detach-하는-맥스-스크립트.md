@@ -5,6 +5,7 @@ date: 2007-05-17 11:48:43
 categories: [이글루스 백업, "2007-05"]
 ---
 
+{% raw %}
 ![](/assets/images/posts/20070517_114843_c0055803_11053246.jpg)  
   
 인터페이스를 만들어서 할 만큼 거창한 작업도 아니고... 해서  
@@ -58,3 +59,4 @@ delete a
 polyOP.tessellateByFace a #{1}  
 for t = 1 to 4 do ( polyOp.detachFaces a #{1} asNode:true )  
 delete a**
+{% endraw %}

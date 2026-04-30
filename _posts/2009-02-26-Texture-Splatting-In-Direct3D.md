@@ -5,6 +5,7 @@ date: 2009-02-26 21:00:56
 categories: [이글루스 백업, "2009-02"]
 ---
 
+{% raw %}
 |  |
 | --- |
 | 역자: <https://blog.naver.com/lifeisforu/80023844066> |
@@ -177,3 +178,4 @@ Date this article was posted to GameDev.net: **4/23/2005**
 Comments? Questions? Feedback? [Click here!](https://www.gamedev.net/info/faq.asp)
 
 ![](https://blogimgs.naver.com/imgs/nblog/spc.gif)
+{% endraw %}

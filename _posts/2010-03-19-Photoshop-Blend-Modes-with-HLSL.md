@@ -5,6 +5,7 @@ date: 2010-03-19 11:09:48
 categories: [이글루스 백업, "2010-03"]
 ---
 
+{% raw %}
 <https://blog.naver.com/frustum?Redirect=Log&logNo=150042116101>  
   
 **Photoshop Blend Modes with HLSL**  
@@ -439,3 +440,4 @@ The Blend enumeration, listing SourceBlend and DestinationBlend operations usabl
 D3DBLENDOP – remove the “D3DBLENDOP\_” at the beginning to use these as blend operations in an HLSL shader: < <https://msdn.microsoft.com/en-us/library/bb172509(VS.85).aspx> >
 
 D3DBLEND – remove the “D3DBLEND\_” at the beginning to use these as blend factors in an HLSL shader: < <https://msdn.microsoft.com/en-us/library/bb172508(VS.85).aspx> >
+{% endraw %}

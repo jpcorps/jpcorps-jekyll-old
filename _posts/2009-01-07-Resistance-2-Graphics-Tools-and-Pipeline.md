@@ -5,6 +5,7 @@ date: 2009-01-07 09:58:31
 categories: [이글루스 백업, "2009-01"]
 ---
 
+{% raw %}
 [Case Study: Resistance 2 Graphics Tools and Pipeline](https://kimsama.egloos.com/1857291)   
   
 kimsama님 블로그에서 트랙백.   
@@ -64,3 +65,4 @@ Insomniac 팀은 Sony San Diego  와 House of Moves 두 개의 모션캡쳐 스
 이것은 테크니컬 아티스트가 모델의 애니메이션은 한번에 하나가 아니라 리얼 타임으로 검증할 수 있었지요.   
 모든 캐릭터에서 인간 동작은 큰 도전이기도 했지요. 특별히, 립싱크는 잘 되기 위해 시간을 좀 들였습니다.   
 이것은 blend shapes를 따라서 만들어진 완벽한 bone-based  시스템이었지요.
+{% endraw %}

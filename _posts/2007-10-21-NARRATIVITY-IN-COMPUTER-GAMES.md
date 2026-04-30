@@ -5,6 +5,7 @@ date: 2007-10-21 01:28:33
 categories: [이글루스 백업, "2007-10"]
 ---
 
+{% raw %}
 다시 번역 시작 OTL   
 일단 번역기로 최소한 돌려 놓고.  
 새로 시작합니다. OTL  
@@ -103,3 +104,4 @@ pp. 165-2 H) is crucial. According to Luhmann, media represent a loose coupling 
 컴퓨터 게임에 있는 narrativity에 관한 토론이 게임과 설화 사이 감별법에서 뿌리박기 때문에, 나는 게임, 컴퓨터 게임 및 컴퓨터 게임의 narrativity의 뒤에 오는 충분히 분석을 구조를 제공하는 설화의 몇몇 정의에 집중할 것이다. 이 분석은 narratology에서 개발된 이야기 수준에 동쪽으로 향하게 할 것이다: 사건을 기술하는 수준이 말한 대로 그들의 순서 뿐 아니라 이야기와 작의는 대표의 형태 및 저자의 질문을 취급하는 논설과 내레이션의 수준에 의해, 따라 토론될 것이다. 필요할, 나는 좋을 것이 보여주 것과 같이 다른 사람에 관계를 매체 것과 같이 계산한다 15.1를 언제 고려할 것이다.
 
 of computer games. This analysis will orient itself to the narrative levels developed in narratology: story and plot as levels describing the events told as well as their order will be discussed, followed by the levels of discourse and narration, dealing with the modes of representation and questions of authorship. When necessary, I will consider relationships to other media-as figure 15.1 shows-as well.
+{% endraw %}

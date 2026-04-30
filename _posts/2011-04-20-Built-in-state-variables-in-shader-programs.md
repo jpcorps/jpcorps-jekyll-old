@@ -5,6 +5,7 @@ date: 2011-04-20 11:09:57
 categories: [이글루스 백업, "2011-04"]
 ---
 
+{% raw %}
 # Built-in state variables in shader programs
 
 Often in [shader programs](https://unity3d.com/support/documentation/Components/SL-ShaderPrograms.html) you need to access some global state, for example, the current model\*view\*projection matrix, the current ambient color, and so on. There's no need to declare these variables for the built-in state, you can just use them in shader programs.
@@ -39,3 +40,4 @@ UNITY\_LIGHTMODEL\_AMBIENT
 :   Current ambient color.
 
 :   으응... 월드 메트릭스로 변환하는건 없는건가...
+{% endraw %}

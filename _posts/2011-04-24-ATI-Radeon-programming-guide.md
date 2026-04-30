@@ -5,6 +5,7 @@ date: 2011-04-24 15:59:09
 categories: [이글루스 백업, "2011-04"]
 ---
 
+{% raw %}
 오즈라엘님 블로그에서 트랙백.   
 언젠가 쓸모가 있겠징  
 ㅋㅋㅋ [ATI Radeon programming guide](https://ozlael.egloos.com/3632310)  
@@ -57,3 +58,4 @@ categories: [이글루스 백업, "2011-04"]
 page :  
 
 <https://developer.amd.com/gpu/radeon/pages/radeonsdksamplesdocuments.aspx>
+{% endraw %}

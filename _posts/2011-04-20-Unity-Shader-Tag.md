@@ -5,6 +5,7 @@ date: 2011-04-20 10:59:44
 categories: [이글루스 백업, "2011-04"]
 ---
 
+{% raw %}
 ## Shader replacement tags in built-in Unity shaders
 
 All built-in Unity shaders have a "RenderType" tag set that can be used when rendering with replaced shaders. Tag values are the following:
@@ -19,3 +20,4 @@ All built-in Unity shaders have a "RenderType" tag set that can be used when ren
 * TreeBillboard: terrain engine billboarded trees.
 * Grass: terrain engine grass.
 * GrassBillboard: terrain engine billboarded grass.
+{% endraw %}

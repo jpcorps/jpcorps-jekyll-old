@@ -5,6 +5,7 @@ date: 2011-08-26 17:15:18
 categories: [이글루스 백업, "2011-08"]
 ---
 
+{% raw %}
 지포스 8000대의 하드웨어 성능표를 보니 버텍스 필레이트가 없네요??? 뭐지???  
 그래서 조사하다가 알게 된 것. Unified Shader.  
   
@@ -75,3 +76,4 @@ GeForce 8 시리즈는 통합 구조의 GPU를 가지고 있다. 하나의 float
 **< Reference >**
 
 1. Site:<https://www.nvidia.com/object/geforce_8600_8500_faq.html>
+{% endraw %}

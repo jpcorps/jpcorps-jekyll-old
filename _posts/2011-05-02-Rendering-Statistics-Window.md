@@ -5,6 +5,7 @@ date: 2011-05-02 11:14:05
 categories: [이글루스 백업, "2011-05"]
 ---
 
+{% raw %}
 # Rendering Statistics Window
 
 The Game View has a Stats button top right. When this Stats button is pressed, an overlay window is displayed with realtime rendering statistics. This is very useful for helping to optimize your game. The statistics displayed vary depending on your build target.   
@@ -28,3 +29,4 @@ Statistics window contains the following information:
 | VBO total | Number of unique meshes (vertex buffers) that are uploaded to the graphics card. Each different model will cause new VBO to be created. In some cases scaled objects will cause additional VBOs to be created. In case of a static batching however number of objects can share same VBO.  그래픽 카드에 올라가는 독립된 메쉬의 수 (버텍스 버퍼). 각각의 다른 모델은 새로운 VBO가 생기는데 원인이 된다. 어떤 케이스에서는 스케일된 오브젝트가 VBO증가에 이유가 되기도 한다. 스테틱 배치의 케이스에서는 어쨌거나 오브젝트의 개수는 같은 VBO를 공유한다. |
 | Visible Skinned Meshes | How many skinned meshes are rendered. |
 | Animations | How many animations are playing. |
+{% endraw %}
