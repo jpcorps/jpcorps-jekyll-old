@@ -1,4 +1,9 @@
-name: "Build and Deploy"
+import os
+
+target_path = r"D:\github\jpcorps.github.io\.github\workflows\pages-deploy.yml"
+
+# 들여쓰기와 구조를 완벽하게 맞춘 배포 설정 (검사기 제거 버전)
+master_deploy_content = """name: "Build and Deploy"
 on:
   push:
     branches:
@@ -62,3 +67,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+"""
+
+if os.path.exists(target_path):
+    # 폴더가 없는 경우를 대비해 폴더 생성 (이미 있겠지만 안전을 위해)
+    os.makedirs(os.path.dirname(target_path), exist_ok=True)
+
+    with open(target_path, "w", encoding="utf-8") as f:
+        f.write(master_deploy_content)
+    print(f"✓ {target_path} 파일을 완벽한 형식으로 재작성했습니다!")
+else:
+    print(f"에러: {target_path} 파일을 찾을 수 없습니다. 경로를 확인해주세요.")
