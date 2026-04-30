@@ -1,4 +1,9 @@
-# The Site Configuration
+import os
+
+config_path = r"D:\github\jpcorps.github.io\_config.yml"
+
+# 들여쓰기를 완벽하게 맞춘 Chirpy 테마 설정
+full_config = """# The Site Configuration
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -6,8 +11,8 @@ theme: jekyll-theme-chirpy
 lang: ko-KR
 timezone: Asia/Seoul
 
-title: 대충 살아가는 게임개발자
-tagline: 이글루스와 티스토리를 정처없이 떠돌아다니다 여기로 옮겨옴
+title: "대충 살아가는 게임개발자"
+tagline: "이글루스와 티스토리를 정처없이 떠돌아다니다 여기로 옮겨옴"
 description: >-
   TA 대마왕의 대충 살아가는 게임개발자 블로그
 
@@ -158,3 +163,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+"""
+
+with open(config_path, 'w', encoding='utf-8') as f:
+    f.write(full_config)
+
+print(f"완료! {config_path} 파일의 들여쓰기를 복구했습니다.")
