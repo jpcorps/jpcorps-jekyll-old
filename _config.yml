@@ -17,7 +17,7 @@ social:
   links:
     - https://github.com/jpcorps
 
-theme_mode: light
+theme_mode: 
 avatar: /Face.png
 toc: true
 
