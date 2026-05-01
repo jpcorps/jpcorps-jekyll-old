@@ -51,6 +51,7 @@ collections:
     sort_by: order
 
 defaults:
+  # 1. 포스트 설정 (주소 충돌 방지를 위해 수정)
   - scope:
       path: ""
       type: posts
@@ -58,13 +59,34 @@ defaults:
       layout: post
       comments: true
       toc: true
-      permalink: /posts/:title/
+      permalink: /posts/:year-:month-:day-:title/ # 여기만 날짜를 추가!
+
+  # 2. 탭 설정 (기존처럼 깔끔하게 유지)
   - scope:
       path: ""
       type: tabs
     values:
       layout: page
       permalink: /:title/
+  
+  # 2010년 이전의 아주 오래된 글들은 검색 엔진에서 제외하여 빌드 속도 향상
+  - scope:
+      path: "_posts/2006" # 폴더 구조가 년도별로 되어 있다면 유용합니다
+    values:
+      search: false
+  - scope:
+      path: "_posts/2007"
+    values:
+      search: false
+  - scope:
+      path: "_posts/2008"
+    values:
+      search: false
+  - scope:
+      path: "_posts/2009"
+    values:
+      search: false
+      
 
 jekyll-archives:
   enabled: [categories, tags]
