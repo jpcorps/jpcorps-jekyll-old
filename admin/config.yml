@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: jpcorps/jpcorps.github.io
+  branch: main # 혹은 master (본인 저장소의 기본 브랜치 이름)
+
+media_folder: "assets/img/posts" # 이미지가 저장될 폴더 경로
+public_folder: "/assets/img/posts" # 글에 삽입될 이미지 주소
+
+collections:
+  - name: "post"
+    label: "블로그 포스트 (Posts)"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "제목", name: "title", widget: "string" }
+      - { label: "작성일", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss Z" }
+      - { label: "카테고리", name: "categories", widget: "list", required: false }
+      - { label: "태그", name: "tags", widget: "list", required: false }
+      - { label: "본문 내용", name: "body", widget: "markdown" }
